@@ -35,7 +35,8 @@ void setup() {
 
   TinyUSBDevice.setManufacturerDescriptor("Acapeo (Vincent Manoukian)");
   TinyUSBDevice.setProductDescriptor("LedExtender");
-  //TinyUSBDevice.setID(0xNNNN, 0xNNNN);
+  // TODO Temporary VID/PID, request pending
+  TinyUSBDevice.setID(0x1209, 0x4E00);
 
   simhubParser.begin(&Serial);
 
