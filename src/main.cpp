@@ -24,7 +24,9 @@ void setup() {
 
   pinMode(PIN_STRIP, OUTPUT);
   pixels.begin();
-  pixels.setPixelColor(0,255,0,0);
+  for (int i=0; i<STRIP1_RGBLEDCOUNT; i++) {
+    pixels.setPixelColor(i,255,0,0);
+  }
   pixels.show();
 }
 
