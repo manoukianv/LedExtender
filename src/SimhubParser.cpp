@@ -1,3 +1,20 @@
+/*
+  Copyright (c) 2024 Vincent Manoukian. All rights reserved.
+  This file is part of the Acapeo SimRacing product for firmware developpement.
+
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of mentions in Licences.md files. This
+  libreary can't be exluded from the licences.
+
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the licences by following links,
+  and contacts shared in Licences.md
+*/
+
 #include "SimhubParser.h"
 
 SimhubParser::SimhubParser(){};
