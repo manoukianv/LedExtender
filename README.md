@@ -2,11 +2,13 @@
 
 # What is LedExtender
 
-[LedExtender](https://github.com/manoukianv/LedExtender) is firmware to drive a WS1820 led Strip of 18 leds from SimHub.
+[LedExtender](https://github.com/manoukianv/LedExtender) is firmware to drive a WS1820 led Strip of 18 leds from [SimHub](https://www.simhubdash.com/) data.
 
 LedExtender help you to build the system and run it, on a Raspberry Pico (RP2040) and a StripLed.
 - SimHub parsing data
 - Show led color from settings
+
+A specific PID/VID is requested to be addressed by the Simhub gateway, the PID/VID is set in the setup methode of main.cpp file.
 
 # Installation
 
